@@ -1,0 +1,22 @@
+{
+  "name": "poker",
+  "version": "1.0.0",
+  "description": "A poker game generator",
+  "main": "poker.js",
+  "scripts": {
+    "start": "tsc poker.ts && node poker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arashemadi/poker-game.git"
+  },
+  "author": "Arash Emadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arashemadi/poker-game/issues"
+  },
+  "homepage": "https://github.com/arashemadi/poker-game#readme",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
+}
