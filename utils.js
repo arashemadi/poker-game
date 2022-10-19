@@ -118,7 +118,7 @@ const analyzeHand = (cards = []) => {
     for (let card of cards) {
       const value = card[0];
       const suit = card[1];
-      if (['A', 'K', 'Q', 'J', 'T'].includes(value) && suit == flushSuit) {
+      if (['A', 'K', 'Q', 'J', 'T'].includes(value) && suit === flushSuit) {
         royalFlushCount++;
       }
     }
